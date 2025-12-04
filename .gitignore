@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Model files (avoid uploading >100MB)
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# Large data
+*.mp4
+*.zip
+*.avi
+*.mov
+data/raw/
+data/videos/
+
+# OS
+Thumbs.db
+.DS_Store
